@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="28dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="MirrorDrive" android:textSize="30sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:text="Transmissão de tela para Receiver Android" android:textSize="16sp" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/host" android:hint="IP do Receiver (ex.: 192.168.1.20)" android:inputType="text" android:layout_marginTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/discover" android:text="Encontrar Receiver automaticamente" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/send" android:text="Transmitir tela" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/receive" android:text="Abrir Receiver" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/status" android:text="Pronto" android:textSize="16sp" android:layout_marginTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
